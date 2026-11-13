@@ -1,0 +1,18 @@
+# Local copies of the commercial game and data derived from it (the installer stages them here)
+/gamebin/
+*.pck
+
+# Policies and built packages (published as release assets, never committed)
+/dist/
+*.bin
+*.pt
+
+# Build output
+**/bin/
+**/obj/
+__pycache__/
+*.py[cod]
+
+# Machine configuration
+.env
+search.cfg
